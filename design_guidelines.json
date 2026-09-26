@@ -1,0 +1,86 @@
+{
+  "project_meta": {
+    "name": "Sarah Toscano - Official Website & Interactive Admin Hub",
+    "language": "Italian (it-IT)",
+    "archetype": "Dark Elegant Pop-Artist (Swiss & Performance Hybrid)",
+    "admin_password": "Leonardo.2009",
+    "target_audience": "Music fans, press, music industry scouts, vinyl collectors"
+  },
+  "typography": {
+    "font_family_headings": "Clash Display, Syne, sans-serif",
+    "font_family_body": "Outfit, Manrope, sans-serif",
+    "font_family_mono": "JetBrains Mono, monospace",
+    "hierarchy": {
+      "hero_title": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight",
+      "section_title": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "card_title": "text-lg sm:text-xl font-semibold",
+      "body_text": "text-base text-zinc-300 leading-relaxed",
+      "caption": "text-xs font-mono uppercase tracking-widest text-pink-400/90"
+    }
+  },
+  "colors": {
+    "background_main": "#09090D",
+    "background_surface": "#12121C",
+    "background_card": "rgba(20, 20, 32, 0.7)",
+    "primary_accent": "#E10078",
+    "primary_glow": "#FF2A85",
+    "secondary_gold": "#E6C200",
+    "text_primary": "#F4F4F8",
+    "text_secondary": "#9494A8",
+    "border_subtle": "rgba(255, 255, 255, 0.08)",
+    "border_highlight": "rgba(225, 0, 120, 0.4)"
+  },
+  "key_features": [
+    "Kinetic Hero section with line-by-line reveal, artist badges, and dramatic stage photography",
+    "Top Announcement Banner (Editable from Admin panel, dismissible by user)",
+    "Infinite Photo & Stage Marquee (editorial smooth drift)",
+    "Shop Vetrina grid with product photos, prices, tags, and direct external purchase modal/link",
+    "Certifications & Awards Timeline (Disco d'Oro Amarcord, Vittoria Amici 23, Sanremo 2025)",
+    "Discography & Lyrics Hub with audio preview simulator and behind-the-song stories",
+    "News & Novità Feed with category filtering and interactive reading view",
+    "Sarah AI Assistant (integrated pop-artist fan chat bot responding in Italian)",
+    "Password-protected Admin Editor Panel ('Leonardo.2009') to live edit announcements, shop products, awards, discography, news, photo gallery & social links"
+  ],
+  "image_urls": {
+    "hero_stage": "https://images.unsplash.com/photo-1527261834078-9b37d35a4a32?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwxfHxwb3AlMjBzaW5nZXIlMjBjb25jZXJ0JTIwc3RhZ2UlMjBtaWNyb3Bob25lJTIwbGlnaHRzfGVufDB8fHx8MTc5MDQwODM1Mnww&ixlib=rb-4.1.0&q=85",
+    "live_performance": "https://images.unsplash.com/photo-1576967402682-19976eb930f2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHw3fHxwb3AlMjBzaW5nZXIlMjBjb25jZXJ0JTIwc3RhZ2UlMjBtaWNyb3Bob25lJTIwbGlnaHRzfGVufDB8fHx8MTc5MDQwODM1Mnww&ixlib=rb-4.1.0&q=85",
+    "vinyl_black": "https://images.unsplash.com/photo-1669801158950-f663cf15298c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHx2aW55bCUyMHJlY29yZCUyMG11c2ljJTIwYWxidW0lMjB2aW55bCUyMGNvdmVyfGVufDB8fHx8MTc5MDQwODM1Mnww&ixlib=rb-4.1.0&q=85",
+    "vinyl_purple": "https://images.unsplash.com/photo-1619983081563-430f63602796?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwzfHx2aW55bCUyMHJlY29yZCUyMG11c2ljJTIwYWxidW0lMjB2aW55bCUyMGNvdmVyfGVufDB8fHx8MTc5MDQwODM1Mnww&ixlib=rb-4.1.0&q=85",
+    "merch_hoodie": "https://images.unsplash.com/photo-1572986339313-6fb01aa14717?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzF8MHwxfHNlYXJjaHw0fHxwb3AlMjBhcnRpc3QlMjBob29kaWUlMjBob29kaWUlMjBtZXJjaGFuZGlzZSUyMHQtc2hpcnR8ZW58MHx8fHwxNzkwNDA4MzUyfDA&ixlib=rb-4.1.0&q=85",
+    "merch_white_hoodie": "https://images.unsplash.com/photo-1616030257764-0fe6a2f05138?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxwb3AlMjBhcnRpc3QlMjBob29kaWUlMjBob29kaWUlMjBtZXJjaGFuZGlzZSUyMHQtc2hpcnR8ZW58MHx8fHwxNzkwNDA4MzUyfDA&ixlib=rb-4.1.0&q=85",
+    "gallery_concert": [
+      "https://images.unsplash.com/photo-1559228461-4fa1e7eb677c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwyfHxjb25jZXJ0JTIwc3RhZ2UlMjBwaW5rJTIwcHVycGxlJTIwbGlnaHRzJTIwc2lsaG91ZXR0ZSUyMGNyb3dkJTIwZGFya3xlbnwwfHx8fDE3OTA0MDg0NzB8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1523973740062-18e700e8da35?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHw0fHxjb25jZXJ0JTIwc3RhZ2UlMjBwaW5rJTIwcHVycGxlJTIwbGlnaHRzJTIwc2lsaG91ZXR0ZSUyMGNyb3dkJTIwZGFya3xlbnwwfHx8fDE3OTA0MDg0NzB8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1609800029525-b91fdea39774?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwzfHxjb25jZXJ0JTIwc3RhZ2UlMjBwaW5rJTIwcHVycGxlJTIwbGlnaHRzJTIwc2lsaG91ZXR0ZSUyMGNyb3dkJTIwZGFya3xlbnwwfHx8fDE3OTA0MDg0NzB8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxjb25jZXJ0JTIwc3RhZ2UlMjBwaW5rJTIwcHVycGxlJTIwbGlnaHRzJTIwc2lsaG91ZXR0ZSUyMGNyb3dkJTIwZGFya3xlbnwwfHx8fDE3OTA0MDg0NzB8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1561409695-ce8315e7b9a6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHw0fHxjb25jZXJ0JTIwc3RhZ2UlMjBwdXJwbGUlMjBwaW5rJTIwbGlnaHRzJTIwY3Jvd2QlMjBzaWxob3VldHRlJTIwZGFya3xlbnwwfHx8fDE3OTA0MDg0NjJ8MA&ixlib=rb-4.1.0&q=85"
+    ],
+    "portrait_artist": [
+      "https://images.unsplash.com/photo-1509650695346-96796d06faf7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjBzaW5nZXIlMjBwb3J0cmFpdCUyMHBpbmslMjBsaWdodCUyMGRhcmslMjBtb29keXxlbnwwfHx8fDE3OTA0MDg0NjJ8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1648557384915-9288475f5cb9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwzfHxmZW1hbGUlMjBzaW5nZXIlMjBwb3J0cmFpdCUyMHBpbmslMjBsaWdodCUyMGRhcmslMjBtb29keXxlbnwwfHx8fDE3OTA0MDg0NjJ8MA&ixlib=rb-4.1.0&q=85"
+    ],
+    "merch_extra": [
+      "https://images.unsplash.com/photo-1584049042964-365526ac2862?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHw0fHxibGFjayUyMHQtc2hpcnQlMjBibGFjayUyMGNhcCUyMHRvdGUlMjBiYWclMjBtdXNpYyUyMHBvc3RlciUyMG1lcmNoYW5kaXNlJTIwZGFya3xlbnwwfHx8fDE3OTA0MDg0NzB8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1643096654257-e7e967359a0d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwzfHxibGFjayUyMHQtc2hpcnQlMjBibGFjayUyMGNhcCUyMHRvdGUlMjBiYWclMjBtdXNpYyUyMHBvc3RlciUyMG1lcmNoYW5kaXNlJTIwZGFya3xlbnwwfHx8fDE3OTA0MDg0NzB8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1577991712260-4ee45603dab8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHxibGFjayUyMHQtc2hpcnQlMjBibGFjayUyMGNhcCUyMHRvdGUlMjBiYWclMjBtdXNpYyUyMHBvc3RlciUyMG1lcmNoYW5kaXNlJTIwZGFya3xlbnwwfHx8fDE3OTA0MDg0NzB8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1569044730150-ac0e547bee49?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxibGFjayUyMHQtc2hpcnQlMjBibGFjayUyMGNhcCUyMHRvdGUlMjBiYWclMjBtdXNpYyUyMHBvc3RlciUyMG1lcmNoYW5kaXNlJTIwZGFya3xlbnwwfHx8fDE3OTA0MDg0NzB8MA&ixlib=rb-4.1.0&q=85"
+    ],
+    "discography_covers": [
+      "https://images.unsplash.com/photo-1746470320824-6491a582096d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w8NjAzMjh8MHwxfHNlYXJjaHw0fHxuZW9uJTIwcGluayUyMGFsYnVtJTIwY292ZXIlMjBhcnQlMjBhYnN0cmFjdCUyMGRhcmslMjBzeW50aHdhdmUlMjBuZW9uJTIwZ29sZHxlbnwwfHx8fDE3OTA0MDg0NzB8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1764258560295-21e74c3d0d15?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHx2aW55bCUyMGFsYnVtJTIwYXJ0d29yayUyMG5lb24lMjBkYXJrJTIwc3ludGh3YXZlJTIwbWFnZW50YSUyMGdvbGR8ZW58MHx8fHwxNzkwNDA4NDg3fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1634146330658-b052db81cd15?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwzfHxuZW9uJTIwcGluayUyMGFsYnVtJTIwY292ZXIlMjBhcnQlMjBhYnN0cmFjdCUyMGRhcmslMjBzeW50aHdhdmUlMjBuZW9uJTIwZ29sZHxlbnwwfHx8fDE3OTA0MDg0NzB8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1727004795721-45878cee0d29?crop=entropy&cs=srgb&fm=jpg&ixid=M3w8NjAzMjh8MHwxfHNlYXJjaHwyfHxuZW9uJTIwcGluayUyMGFsYnVtJTIwY292ZXIlMjBhcnQlMjBhYnN0cmFjdCUyMGRhcmslMjBzeW50aHdhdmUlMjBuZW9uJTIwZ29sZHxlbnwwfHx8fDE3OTA0MDg0NzB8MA&ixlib=rb-4.1.0&q=85"
+    ],
+    "news_thumbs": [
+      "https://images.unsplash.com/photo-1623055878129-928642e334d8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHw3fHxnb2xkJTIwYXdhcmQlMjB0cm9waHklMjBzdHVkaW8lMjBtaWNyb3Bob25lJTIwYmFja3N0YWdlJTIwc2luZ2VyJTIwZGFya3xlbnwwfHx8fDE3OTA0MDg0NzB8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1648538836903-aa4e9ea103ac?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHw0fHxnb2xkJTIwYXdhcmQlMjB0cm9waHklMjBzdHVkaW8lMjBtaWNyb3Bob25lJTIwYmFja3N0YWdlJTIwc2luZ2VyJTIwZGFya3xlbnwwfHx8fDE3OTA0MDg0NzB8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1526398977052-654221a252b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxnb2xkJTIwYXdhcmQlMjB0cm9waHklMjBzdHVkaW8lMjBtaWNyb3Bob25lJTIwYmFja3N0YWdlJTIwc2luZ2VyJTIwZGFya3xlbnwwfHx8fDE3OTA0MDg0NzB8MA&ixlib=rb-4.1.0&q=85"
+    ]
+  },
+  "instructions_to_main_agent": {
+    "admin_auth": "Implement modal password prompt for password 'Leonardo.2009'. Store auth status in localStorage so admin session persists during editing.",
+    "editing_capabilities": "Admin editor must allow adding, updating, and removing items in Shop, Certifications, Discography, News, Hero Announcements, and Social Links. Provide Toast notifications using sonner upon successful updates.",
+    "testing": "Ensure all buttons, inputs, modals, and links contain role-based data-testid attributes (e.g. data-testid='admin-login-button', data-testid='shop-buy-button-1').",
+    "language": "Use high quality, realistic Italian copy tailored to Sarah Toscano's career (Amici 23 winner, Sanremo 2025, singles Sexy Magica, Amarcord, Tacchi fra le dita)."
+  }
+}
